@@ -43,7 +43,7 @@ const favoritesChecker=(id)=>{
            <button onClick={()=>removeFromFavorites(book.id)}> Remove from Favorites</button>
            :  <button onClick={()=>addToFavorites(book)}>Add to Favorites</button>
           }
-            <button onClick={()=>addToFavorites(book)}>Add to Favorites</button>
+            
           </div>
         </div>
       ))}
