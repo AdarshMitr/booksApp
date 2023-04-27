@@ -1,5 +1,7 @@
 import React from "react";
 import '../App';
+import { Link } from "react-router-dom";
+
 
 const Navbar = () => {
   return (
@@ -8,7 +10,7 @@ const Navbar = () => {
         <h1>Books App</h1>
       </div>
       <div>
-       Your Favorites
+      <Link to="/favorites"><h3>Your Favorites</h3></Link>
       </div>
     </div>
   );
