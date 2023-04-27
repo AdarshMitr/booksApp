@@ -33,3 +33,25 @@
 
 
 }
+
+.book{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    width: 250px;
+    height: 300px;
+}
+
+button{
+    padding: 10px;
+    background: rgb(53, 233, 149);
+    color: rgb(5, 5, 5);
+    width: 100%;
+    border-radius: 5px;
+
+}
