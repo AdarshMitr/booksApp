@@ -3,3 +3,33 @@
     padding: 0;
     margin: 0;
 }
+
+.navbar{
+    width: 100%;
+    height: 10vh;
+    background: #270ca1;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer{
+    width: 100%;
+    height: 10vh;
+    background: #270ca1;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.book-list{
+    min-height: 80vh;
+    width: 100%;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+
+
+}

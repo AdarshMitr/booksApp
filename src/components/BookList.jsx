@@ -3,7 +3,7 @@ import '../App';
 
 const BookList = () => {
   return (
-    <div>BookList</div>
+    <div className='book-list'>BookList</div>
   )
 }
 

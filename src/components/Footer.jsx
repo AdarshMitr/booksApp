@@ -3,7 +3,7 @@ import '../App';
 
 const Footer = () => {
   return (
-    <div>
+    <div className='footer'>
         <p>Books App &copy;2023</p>
     </div>
   )
