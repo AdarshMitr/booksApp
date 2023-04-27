@@ -23,7 +23,7 @@ const BookList = () => {
         <div className="book" key={book.id}>
           <div>
             
-            <h2>{book.title}</h2>
+            <h4>{book.title}</h4>
           </div>
           <div><img src={book.image_url} alt='#'/> </div>
           <div>

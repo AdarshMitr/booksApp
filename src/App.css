@@ -45,6 +45,11 @@
 img{
     width: 250px;
     height: 300px;
+    transition: all 0.3s ease;
+}
+
+img:hover{
+    transform: scale(1.1);
 }
 
 button{
@@ -52,6 +57,7 @@ button{
     background: rgb(53, 233, 149);
     color: rgb(5, 5, 5);
     width: 100%;
-    border-radius: 5px;
+    border-radius: 7px;
+    margin: 20px 0;
 
 }
