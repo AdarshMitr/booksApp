@@ -58,7 +58,7 @@ a{
     align-items: center;
     justify-content: center;
     padding: 10px;
-    /* text-align: center; */
+    
 }
 
 .book-image{
@@ -79,8 +79,8 @@ a{
 }
 
 img{
-    width: 250px;
-    height: 300px;
+    width: 200px;
+    height: 260px;
     transition: all 0.3s ease;
 }
 
@@ -90,11 +90,16 @@ img:hover{
 
 button{
     padding: 10px;
-    background: rgb(53, 233, 149);
+    background: rgb(211, 115, 25);
     color: rgb(5, 5, 5);
-    width: 250px;
-    font-size: 20px;
+    width: 200px;
+    font-size: 15px;
     border-radius: 7px;
     margin: 20px 0;
+    cursor: pointer;
 
+}
+
+button:hover{
+    background: rgb(129, 235, 129);
 }
