@@ -5,6 +5,7 @@
     
 }
 
+
 a{
     color: white;
     text-decoration: none;
@@ -16,7 +17,20 @@ a{
     color: white;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content:space-between;
+    padding: 0 10px;
+}
+
+#favorites-header :hover{
+color: rgb(10, 10, 10);
+background: rgb(129, 235, 129);
+border-radius: 5px ;
+padding: 3px;
+
+}
+
+#main-header :hover{
+color: black;
 }
 
 .footer{

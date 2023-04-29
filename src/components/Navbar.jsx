@@ -6,11 +6,11 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div className="navbar">
-      <div>
-        <h1>Books App</h1>
+      <div id="main-header">
+       <Link to='/'><h1>BOOKS APP</h1></Link> 
       </div>
-      <div>
-      <Link to="/favorites"><h3>Your Favorites</h3></Link>
+      <div id="favorites-header">
+      <Link to="/favorites"><h3>⭐Your Favorites </h3></Link>
       </div>
     </div>
   );
