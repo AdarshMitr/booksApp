@@ -1,13 +1,14 @@
 import React from 'react'
 import '../App';
 import { useAppContext } from './context/appContext';
-
+import { useNavigate } from "react-router-dom";
 
 
 const Favorites = () => {
 
   const {favorites,addToFavorites,removeFromFavorites}=useAppContext();
 
+  const navigate=useNavigate();
 
   console.log('favorites are:', favorites);
   
@@ -25,7 +26,7 @@ const Favorites = () => {
             
             <h4>{book.title}</h4>
           </div>
-          <div><img src={book.image_url} alt='#'/> </div>
+          <div><img src={book.image_url} alt='#' onClick={()=>navigate(`/books/${book.id}`)}/> </div>
           <div>
           {favoritesChecker(book.id)?
            <button onClick={()=>removeFromFavorites(book.id)}> Remove from Favorites</button>
