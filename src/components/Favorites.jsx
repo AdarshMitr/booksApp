@@ -2,6 +2,7 @@ import React from 'react'
 import '../App';
 import { useAppContext } from './context/appContext';
 import { useNavigate } from "react-router-dom";
+import { basePath } from "../App";
 
 
 const Favorites = () => {
@@ -26,7 +27,7 @@ const Favorites = () => {
             
             <h4>{book.title}</h4>
           </div>
-          <div><img src={book.image_url} alt='#' onClick={()=>navigate(`/books/${book.id}`)}/> </div>
+          <div><img src={book.image_url} alt='#' onClick={()=>navigate(`${basePath}/books/${book.id}`)}/> </div>
           <div>
           {favoritesChecker(book.id)?
            <button onClick={()=>removeFromFavorites(book.id)}> Remove from Favorites</button>
